@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
 // Initialize mobile navigation
 setupMobileNav();
 // Smooth scrolling for anchor links
-// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -62,7 +61,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const targetId = this.getAttribute('href');
         if (targetId === '#') return;
         
-        const targetElement = document.querySelector(targetId);
+        // Handle both "index.html#section" and "#section" formats
+        const sectionId = targetId.includes('#') ? targetId.split('#')[1] : targetId.substring(1);
+        const targetElement = document.getElementById(sectionId);
+        
         if (!targetElement) return;
         
         // Get the navbar height to use as offset
@@ -80,6 +82,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
 
 
 // Contact form submission
