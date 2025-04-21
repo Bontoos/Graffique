@@ -150,6 +150,8 @@ section {
     color: var(--white);
     transition: all 0.3s ease;
     z-index: 1000;
+    background: none;
+    border: none;
 }
 
 .nav-overlay {
