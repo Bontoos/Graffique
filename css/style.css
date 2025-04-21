@@ -309,7 +309,7 @@ section {
 
 .cart-dropdown {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 0;
     width: 300px;
     background-color: var(--dark-gray);
@@ -450,8 +450,9 @@ section {
     }
     
     .cart-dropdown {
+        display: flex;
         width: 280px;
-        right: -70px; /* Adjust position on mobile */
+        justify-self: center;
     }
     
     .cart-dropdown:before {
