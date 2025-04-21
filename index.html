@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graffique | Fashion Gets Tagged</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Graffique - Urban streetwear inspired by graffiti culture. Bold wearable pieces that capture the essence of street art and urban expression.">
+    <meta name="keywords" content="streetwear, urban fashion, graffiti clothing, street art fashion, urban style">
+    <meta name="author" content="Graffique">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://graffiquestore.com/">
+    <meta property="og:title" content="Graffique | Fashion Gets Tagged">
+    <meta property="og:description" content="Urban streetwear inspired by graffiti culture. Bold designs that turn street art into fashion.">
+    <meta property="og:image" content="images/logo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://graffiquestore.com/">
+    <meta property="twitter:title" content="Graffique | Fashion Gets Tagged">
+    <meta property="twitter:description" content="Urban streetwear inspired by graffiti culture. Bold designs that turn street art into fashion.">
+    <meta property="twitter:image" content="images/logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://graffiquestore.com/index.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+    <!-- Scripts -->
+    <script src="js/product-data.js" defer></script>
+    <script src="js/product.js" defer></script>
+    <script src="js/cart-functions.js" defer></script>
+    <script src="js/cart.js" defer></script>
+    <script src="js/cart-page.js" defer></script>
+    <script src="js/main.js" defer></script>   
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="nav" aria-label="Main navigation">
+            <div class="logo">
+                <a href="index.html" aria-label="Graffique Home">
+                    <img src="images/logo.png" alt="Graffique - Urban Streetwear Brand Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#store">Featured</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <div class="mobile-social-links">
+                    <a href="https://www.instagram.com/graffiquestore?igsh=MTRlNmIxdTA4cWE4ZQ%3D%3D&utm_source=qr" aria-label="Follow Graffique on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@graffiquestore" aria-label="Follow Graffique on TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </ul>
+            <!-- Add cart icon here -->
+            <div class="cart-container">
+                <a href="#" id="cart-icon" aria-label="Shopping Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <!-- Cart dropdown will go here -->
+                <div class="cart-dropdown">
+                    <div class="cart-items">
+                        <!-- Cart items will be added dynamically -->
+                    </div>
+                    <div class="cart-summary">
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span class="total-price">$0.00</span>
+                        </div>
+                        <button class="checkout-btn">Checkout</button>
+                        <button class="view-cart-btn">View Cart</button>
+                    </div>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" aria-label="Brand introduction">
+            <div class="hero-content">
+                <h1>Graffique</h1>
+                <p class="tagline">Fashion Gets Tagged.</p>
+                <a href="#store" class="cta-button">Shop the Drop</a>
+            </div>
+            <div class="scroll-cue">
+                <a href="#about" aria-label="Scroll to About section">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" aria-label="About Graffique">
+            <div class="container">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>
+                        Graffique is the voice of raw expression. Born from back alleys, rooftops, and underground tunnels — we turn street art into bold wearable pieces. Every drop is a shout, not a whisper.
+                    </p>
+                    <p>
+                        Our designs capture the essence of urban culture, bringing the energy and rebellion of street art to fashion. Each piece tells a story of creativity unleashed and boundaries broken.
+                    </p>
+                    <a href="#store" class="secondary-button">Explore Collection</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/AngelGraffique.png" alt="Graffique Street Artist - Urban fashion inspiration">
+                </div>
+            </div>
+        </section>
+
+       <!-- Process Section -->
+        <section id="process">
+            <div class="container">
+                <h2>Our Process</h2>
+                
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <i class="fas fa-spray-can"></i>
+                        </div>
+                        <div class="process-content">
+                            <h3>DESIGN</h3>
+                            <p>We create original graffiti designs that speak to the streets.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div class="process-content">
+                            <h3>PRODUCE</h3>
+                            <p>Designs go to our trusted producer who prints them on quality blanks.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="process-content">
+                            <h3>TAG IT</h3>
+                            <p>Each piece gets our custom tags - making it official street gear.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <div class="process-content">
+                            <h3>SHIP IT</h3>
+                            <p>Your order gets packed and shipped directly to you. No middleman.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-cta">
+                    <a href="#store" class="cta-button">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Store Section -->
+        <section id="store" aria-label="Featured products">
+            <div class="container">
+                <div class="store-header">
+                    <h2>Shop the Drop</h2>
+                    <a href="products.html" class="see-all-button">See All Items</a>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="images/Tshirt.png" alt="Graffique Logo Tee - Black cotton t-shirt with street art design">
+                            <div class="overlay"></div>
+                        </div>
+                        <h3>Graffique Logo Tee</h3>
+                        <p>$35.00</p>
+                        <div class="product-buttons">
+                            <a href="#" class="product-button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="images/Hoodie.png" alt="Angel Spray Hoodie - Premium cotton blend hoodie with angel graffiti design">
+                            <div class="overlay"></div>
+                        </div>
+                        <h3>Angel Spray Hoodie</h3>
+                        <p>$65.00</p>
+                        <div class="product-buttons">
+                            <a href="#" class="product-button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="images/Beanie.png" alt="Tag Beanie - Warm knit beanie with embroidered graffiti tag">
+                            <div class="overlay"></div>
+                        </div>
+                        <h3>Tag Beanie</h3>
+                        <p>$25.00</p>
+                        <div class="product-buttons">
+                            <a href="#" class="product-button">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="images/ToteBag.png" alt="Urban Tote Bag - Canvas tote with bold graffiti print">
+                            <div class="overlay"></div>
+                        </div>
+                        <h3>Urban Tote Bag</h3>
+                        <p>$40.00</p>
+                        <div class="product-buttons">
+                            <a href="#" class="product-button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p class="contact-intro">Questions? Collabs? Just wanna vibe? Hit us up.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Your message" required></textarea>
+                    <button type="submit" class="cta-button">Send</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/graffiquestore?igsh=MTRlNmIxdTA4cWE4ZQ%3D%3D&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@graffiquestore" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="container">
+                <p>© 2025 Graffique. Fashion Gets Tagged.</p>
+                <nav class="footer-nav">
+                    <a href="#hero">Top</a> | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a> | <a href="return.html">Return</a> | <a href="shipping.html">Shipping</a>
+                </nav>
+            </div>
+        </footer>
+
+        <!-- Product Modal -->
+        <div id="product-modal" class="product-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-product-title">
+            <div class="modal-content">
+                <span class="close-modal" aria-label="Close modal">&times;</span>
+                <div class="modal-container">
+                    <div class="product-gallery">
+                        <div class="main-image">
+                            <img id="modal-main-image" src="" alt="Product Image">
+                        </div>
+                        <div class="thumbnail-gallery" role="list" aria-label="Product image gallery">
+                            <!-- Thumbnails will be added dynamically -->
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h2 id="modal-product-title"></h2>
+                        <p class="product-price" id="modal-product-price"></p>
+                        <div class="product-description" id="modal-product-description"></div>
+                        <div class="product-options">
+                            <div class="size-selector">
+                                <label for="size">Size:</label>
+                                <select id="size" aria-label="Select size">
+                                    <option value="s">S</option>
+                                    <option value="m">M</option>
+                                    <option value="l">L</option>
+                                    <option value="xl">XL</option>
+                                </select>
+                            </div>
+                            <div class="quantity-selector">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" id="quantity" min="1" value="1" aria-label="Select quantity">
+                            </div>
+                        </div>
+                        <button class="cta-button add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-tabs">
+                    <div class="tab-buttons" role="tablist">
+                        <button class="tab-button active" id="details-tab" data-tab="details" role="tab" aria-selected="true" aria-controls="details-panel">Details</button>
+                        <button class="tab-button" id="reviews-tab" data-tab="reviews" role="tab" aria-selected="false" aria-controls="reviews-panel">Reviews</button>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="details-panel" role="tabpanel" aria-labelledby="details-tab">
+                            <p id="modal-product-details"></p>
+                        </div>
+                        <div class="tab-panel" id="reviews-panel" role="tabpanel" aria-labelledby="reviews-tab">
+                            <!-- Reviews will be added dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
