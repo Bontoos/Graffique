@@ -6,8 +6,8 @@ const PRODUCT_DATA = {
         description: 'Our signature logo tee features premium cotton with a relaxed fit. The Graffique logo is screen printed using eco-friendly inks.',
         details: 'Made from 100% organic cotton. Pre-shrunk and machine washable. Designed and printed in the USA. Available in sizes S through XL.',
         images: [
-            'images/Tshirt.png',
-            'images/Tshirtback.png',
+            './images/Tshirt.png',
+            './images/Tshirtback.png',
         ],
         reviews: [
             {
@@ -30,8 +30,8 @@ const PRODUCT_DATA = {
         description: 'Express your urban style with our Street Art Tee. Features a custom graffiti design that celebrates street culture.',
         details: 'Made from 100% organic cotton. Pre-shrunk and machine washable. Designed and printed in the USA. Available in sizes S through XL.',
         images: [
-            'images/Tshirt2.png',
-            'images/Tshirt2.png',
+            './images/Tshirt2.png',
+            './images/Tshirt2.png',
         ],
         reviews: [
             {
@@ -54,8 +54,8 @@ const PRODUCT_DATA = {
         description: 'Our signature logo tee features premium cotton with a relaxed fit. The Graffique logo is screen printed using eco-friendly inks.',
         details: 'Made from 100% organic cotton. Pre-shrunk and machine washable. Designed and printed in the USA. Available in sizes S through XL.',
         images: [
-            'images/Tshirt.png',
-            'images/Tshirtback.png',
+            './images/Tshirt.png',
+            './images/Tshirtback.png',
         ],
         reviews: [
             {
@@ -78,9 +78,9 @@ const PRODUCT_DATA = {
         description: 'Stay warm with our Angel Spray Hoodie featuring our iconic angel design. Heavy-weight cotton blend with a soft fleece interior.',
         details: 'Made from 80% cotton, 20% polyester. Features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Machine washable.',
         images: [
-            'images/Hoodie.png',
-            'images/Hoodie.png',
-            'images/Hoodie.png'
+            './images/Hoodie.png',
+            './images/Hoodie.png',
+            './images/Hoodie.png'
         ],
         reviews: [
             {
@@ -103,9 +103,9 @@ const PRODUCT_DATA = {
         description: 'Our Urban Style Hoodie combines comfort with street-inspired design. Features bold graphics and premium construction.',
         details: 'Made from 80% cotton, 20% polyester. Features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Machine washable.',
         images: [
-            'images/Hoodie2.png',
-            'images/Hoodie2.png',
-            'images/Hoodie2.png'
+            './images/Hoodie2.png',
+            './images/Hoodie2.png',
+            './images/Hoodie2.png'
         ],
         reviews: [
             {
@@ -128,9 +128,9 @@ const PRODUCT_DATA = {
         description: 'Keep your head warm with our Tag Beanie. Features our signature tag embroidered on a soft, stretchy knit.',
         details: 'Made from acrylic blend for warmth and comfort. One size fits most. Hand wash recommended.',
         images: [
-            'images/Beanie.png',
-            'images/Beanie.png',
-            'images/Beanie.png'
+            './images/Beanie.png',
+            './images/Beanie.png',
+            './images/Beanie.png'
         ],
         reviews: [
             {
@@ -153,9 +153,9 @@ const PRODUCT_DATA = {
         description: 'Carry your essentials in style with our Urban Tote Bag. Features a bold graffiti print on durable canvas.',
         details: 'Made from heavy-duty canvas with reinforced handles. Interior pocket and magnetic closure. Spot clean only.',
         images: [
-            'images/ToteBag.png',
-            'images/ToteBag.png',
-            'images/ToteBag.png'
+            './images/ToteBag.png',
+            './images/ToteBag.png',
+            './images/ToteBag.png'
         ],
         reviews: [
             {
