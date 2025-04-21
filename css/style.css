@@ -187,6 +187,7 @@ section {
         color: var(--orange);
         transform: rotate(360deg);
         transition: all 0.5s ease;
+        flex: 3;
     }
 
     .nav-links {
