@@ -277,11 +277,6 @@ section {
 
 }
 
-/* Cart Styles */
-.cart-container {
-    position: relative;
-    margin-right: 20px;
-}
 
 #cart-icon {
     font-size: 1.5rem;
