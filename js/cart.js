@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCartUI();
     updateCartCount();
     
+
+    const dropdown = document.querySelector('.cart-dropdown');
+    if (dropdown) {
+        dropdown.style.display = 'none'; // Hide dropdown on page load
+    }
     // Toggle cart dropdown on click (optional alternative to hover)
     const cartIcon = document.getElementById('cart-icon');
     if (cartIcon) {
