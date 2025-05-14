@@ -43,6 +43,11 @@
         }
     }
 
+    const dropdown = document.querySelector('.cart-dropdown');
+    if (dropdown) {
+        dropdown.style.display = 'none'; // Hide dropdown on page load
+    }
+
     // Make sure this runs after DOM is loaded
     document.addEventListener('DOMContentLoaded', function() {
         setupMobileNav();
